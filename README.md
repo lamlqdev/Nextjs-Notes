@@ -105,12 +105,33 @@ Dự án này là một bộ sưu tập kiến thức và bài học thực hàn
 
 ---
 
+### [6. Optimizations - Image & Metadata](./06-Optimizations/README.md)
+
+**Chủ đề:** Tối ưu hóa hình ảnh và metadata trong Next.js
+
+**Nội dung bao gồm:**
+
+- Image Optimization với `next/image` - Tối ưu hóa hình ảnh tự động
+- Local Images vs Remote Images
+- Custom Image Loader cho Cloudinary
+- Image Transformations (resize, quality, format conversion)
+- Priority loading và lazy loading
+- Static Metadata - Metadata tĩnh trong layout và page
+- Dynamic Metadata với `generateMetadata()`
+- Metadata kế thừa và override
+- Open Graph và Twitter Cards
+- SEO optimization với metadata
+
+**Dự án thực hành:** Ứng dụng chia sẻ bài viết với image optimization và metadata tối ưu
+
+---
+
 ## 🛠️ Công Nghệ Sử Dụng
 
 - **Next.js 14+** với App Router
 - **React 18+** với Server Components
 - **better-sqlite3** cho database
-- **Cloudinary** cho image upload (dự án 4)
+- **Cloudinary** cho image upload và optimization (dự án 4, 6)
 - **Express.js** cho backend server (dự án 2, 3, 5)
 
 ## 🚀 Cách Sử Dụng
@@ -137,6 +158,7 @@ npm run dev
 ├── 03-Data-Fetching/                  # Data Fetching
 ├── 04-Mutating-Data/                  # Server Actions & Forms
 ├── 05-Understanding-Configurating_Caching/ # Caching
+├── 06-Optimizations/                  # Image & Metadata Optimization
 └── README.md                          # File này
 ```
 
@@ -146,6 +168,8 @@ npm run dev
 - [Next.js Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
 - [Next.js Routing](https://nextjs.org/docs/app/building-your-application/routing)
 - [Next.js Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/caching)
+- [Next.js Image Optimization](https://nextjs.org/docs/app/building-your-application/optimizing/images)
+- [Next.js Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
 - [React Server Components](https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023)
 
 ---

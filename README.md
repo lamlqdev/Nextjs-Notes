@@ -126,11 +126,32 @@ Dự án này là một bộ sưu tập kiến thức và bài học thực hàn
 
 ---
 
+### [7. User Authentication với Lucia Auth](./07-User-Authentication/README.md)
+
+**Chủ đề:** Xác thực người dùng và quản lý session trong Next.js
+
+**Nội dung bao gồm:**
+
+- Authentication với Lucia Auth - Thư viện authentication hiện đại cho Next.js
+- Password Security - Hash và verify mật khẩu với salt và scrypt
+- Signup Flow - Đăng ký user mới và tạo session tự động
+- Login Flow - Xác thực user và tạo session
+- Logout Flow - Hủy session và xóa cookie
+- Route Protection - Bảo vệ routes với `verifyAuth()` trong Server Components
+- Session Management - Quản lý session với HTTP-only cookies
+- Server Actions cho Authentication - Xử lý signup, login, logout
+- Form Handling với `useFormState` - Validation và error handling
+
+**Dự án thực hành:** Ứng dụng training với authentication đầy đủ (signup, login, logout, protected routes)
+
+---
+
 ## 🛠️ Công Nghệ Sử Dụng
 
 - **Next.js 14+** với App Router
 - **React 18+** với Server Components
 - **better-sqlite3** cho database
+- **Lucia Auth** cho authentication và session management (dự án 7)
 - **Cloudinary** cho image upload và optimization (dự án 4, 6)
 - **Express.js** cho backend server (dự án 2, 3, 5)
 
@@ -159,6 +180,7 @@ npm run dev
 ├── 04-Mutating-Data/                  # Server Actions & Forms
 ├── 05-Understanding-Configurating_Caching/ # Caching
 ├── 06-Optimizations/                  # Image & Metadata Optimization
+├── 07-User-Authentication/            # User Authentication
 └── README.md                          # File này
 ```
 
@@ -170,6 +192,8 @@ npm run dev
 - [Next.js Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/caching)
 - [Next.js Image Optimization](https://nextjs.org/docs/app/building-your-application/optimizing/images)
 - [Next.js Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
+- [Next.js Authentication](https://nextjs.org/docs/app/building-your-application/authentication)
+- [Lucia Auth Documentation](https://lucia-auth.com/)
 - [React Server Components](https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023)
 
 ---
